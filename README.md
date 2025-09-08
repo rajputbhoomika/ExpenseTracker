@@ -10,7 +10,7 @@ This Expense Tracker helps users manage their finances by tracking income and ex
 - Chart.js (for pie chart visualization)
 
 ## ✅ Features
-### Core Features (as per Unified Mentor spec)
+### Core Features 
 - Add income and expense transactions
 - Categorize transactions
 - View transaction list
