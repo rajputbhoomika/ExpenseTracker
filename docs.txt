@@ -1,0 +1,27 @@
+# Expense Tracker Documentation
+
+## Code Structure
+
+- index.html: Contains the structure of the web application including form, summary, filter, and chart.
+- style.css: Provides styling for the application including responsiveness and theme support.
+- script.js: Implements all functionality including:
+  - Adding, deleting, editing transactions
+  - Calculating totals and net balance
+  - Filtering by category
+  - Chart visualization using Chart.js
+  - Voice input using Web Speech API
+  - Export and import using JSON
+  - Dark/light theme toggle
+- README.md: Instructions and feature list
+- docs.txt: This documentation file
+
+## Logic Overview
+
+- Transactions are stored in localStorage for persistence.
+- Each transaction has id, date, description, category, amount, and type.
+- Summary is calculated by filtering and reducing the transaction list.
+- Chart is updated dynamically based on expense categories.
+- Voice input uses SpeechRecognition API to fill description.
+- Export creates a downloadable JSON file.
+- Import reads a JSON file and updates the transaction list.
+- Theme toggle switches between light and dark modes.

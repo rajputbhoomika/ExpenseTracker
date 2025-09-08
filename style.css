@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+body {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+body.dark {
+  background-color: #222;
+  color: #fff;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+body.dark .container {
+  background: #333;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+form {
+  display: grid;
+  gap: 10px;
+}
+input, select, button {
+  padding: 10px;
+  font-size: 16px;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.summary, .filter, .export-import {
+  margin-top: 20px;
+}
+#transaction-list {
+  list-style: none;
+  margin-top: 20px;
+}
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #eee;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.transaction-item.income {
+  border-left: 5px solid green;
+}
+.transaction-item.expense {
+  border-left: 5px solid red;
+}
+canvas {
+  margin-top: 30px;
+  width: 100%;
+}
